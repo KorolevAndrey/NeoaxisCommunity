@@ -1,4 +1,4 @@
-Welcome to the Neoaxis Community Project!
+Welcome to the NeoAxis Community Project!
 ================
 This contains community improvements to NeoAxis 3D Game Engine.
 
