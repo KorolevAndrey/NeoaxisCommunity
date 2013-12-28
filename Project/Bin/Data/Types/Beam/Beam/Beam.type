@@ -1,0 +1,147 @@
+type Beam
+{
+	class = Beam
+	useatachedcontrolpoint = True
+	duration = 0.5
+	updatetime = 0
+	mainpointobjtype = Beam2
+	jointobjectprobability = 0.2
+	pitchspawningdeviation = 90
+	yawspawningdeviation = 90
+	rollspawningdeviation = 90
+	numberofpoints = 20
+	length = 10
+	raycast = True
+	disablemipmapfiltering = True
+	textureperunit = 5
+	materialName = Lightning
+	startcolorvalue = 0 0 0
+	middlecolorvalue = 1 1 1 0.8627452
+	endcolorvalue = 0 0 0
+	fadeinend = 0.1
+	fadeoutstart = 0.9
+	allowEditorCreate = True
+	startwidth
+	{
+		linearcomponent
+		{
+			min = 0.01
+			max = 0.08
+			originalspeed = 1
+			startval = 0.1
+			islooped = True
+		}
+	}
+	endwidth
+	{
+		linearcomponent
+		{
+			min = 0.08
+			max = 1
+			originalspeed = 1
+			startval = 1
+			islooped = True
+		}
+	}
+	Bcontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = True
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 80
+				max = 80
+				originalspeed = 0.5
+				startval = 80
+				islooped = True
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0.1
+				max = 0.5
+				originalspeed = 2
+				startval = 0.5
+				islooped = True
+			}
+		}
+	}
+	Ccontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = -2
+				max = 2
+				originalspeed = 2
+				startval = 1
+				islooped = True
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 360
+				originalspeed = 900
+				startval = 80
+				islooped = True
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0.2
+				max = 0.8
+				originalspeed = 5
+				startval = 0.2
+				islooped = True
+			}
+		}
+	}
+	attachedObjects
+	{
+		billboard
+		{
+			color = 0.9921569 1 0.9882354
+			materialName = FlareTest
+			cameraVisibleCheck = True
+			alias = StartObject
+			position = -0.5076909 0 0
+		}
+		billboard
+		{
+			color = 1 1 1 0.6078432
+			materialName = FlareTest
+			alias = EndObject
+			scale = 0.4 0.4 0.4
+		}
+		mapObject
+		{
+			type = HelperPoint
+			alias = CControlPoint
+			position = 0.4778061 -0.785207 0.7226048
+		}
+		mapObject
+		{
+			type = HelperPoint
+			alias = BControlPoint
+		}
+	}
+}

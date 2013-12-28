@@ -1,0 +1,115 @@
+type Test
+{
+	class = Beam
+	duration = 0.2
+	mainpointobjtype = Test
+	pitchspawningdeviation = 90
+	yawspawningdeviation = 90
+	rollspawningdeviation = 90
+	numberofpoints = 40
+	length = 3
+	noisealongcurve = 0.1 0.1 0.1
+	usefastbeam = True
+	permainpointcamface = True
+	doubleshape = True
+	textureperunit = 5
+	materialName = Lightning
+	startcolorvalue = 0.02745098 0.8862746 1
+	middlecolorvalue = 0.02745098 0.8705883 1 0.9215687
+	endcolorvalue = 0.02745098 0.8705883 1
+	allowEditorCreate = True
+	startwidth
+	{
+		linearcomponent
+		{
+			min = 0.01
+			max = 0.1
+			originalspeed = 1
+			startval = 0.1
+			islooped = True
+		}
+	}
+	endwidth
+	{
+		linearcomponent
+		{
+			min = 0.01
+			max = 0.1
+			originalspeed = 1
+			startval = 0.1
+			islooped = True
+		}
+	}
+	Bcontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+	}
+	Ccontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+	}
+}

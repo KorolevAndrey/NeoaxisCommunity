@@ -1,0 +1,11 @@
+type SSP
+{
+	class = SelectiveSpawnPoint
+	attachedObjects
+	{
+		mesh
+		{
+			meshName = "Base\\Types\\InvisiblePoint.mesh"
+		}
+	}
+}

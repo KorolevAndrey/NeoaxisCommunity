@@ -138,6 +138,9 @@
     <Compile Include="BooleanSwitch.cs" />
     <Compile Include="Action Specific\Tank.cs" />
     <Compile Include="ExampleEntityExtendedProperties.cs" />
+    <Compile Include="LightningBolt.cs" />
+    <Compile Include="Platform.cs" />
+    <Compile Include="SSP.cs" />
     <Compile Include="WaterPlaneClipVolume.cs" />
     <Compile Include="DynamicSinusoidSurface.cs" />
     <Compile Include="SimpleMap.cs" />

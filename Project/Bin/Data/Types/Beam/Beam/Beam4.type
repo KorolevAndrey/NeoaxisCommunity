@@ -1,0 +1,114 @@
+type Beam4
+{
+	class = Beam
+	duration = 0.2
+	mainpointobjtype = Beam4
+	pitchspawningdeviation = 90
+	yawspawningdeviation = 90
+	rollspawningdeviation = 90
+	numberofpoints = 40
+	length = 3
+	raycast = True
+	noisealongcurve = 0.1 0.1 0.1
+	usefastbeam = True
+	permainpointcamface = True
+	doubleshape = True
+	textureperunit = 5
+	materialName = Lightning
+	middlecolorvalue = 1 1 1
+	allowEditorCreate = True
+	startwidth
+	{
+		linearcomponent
+		{
+			min = 0.01
+			max = 0.1
+			originalspeed = 1
+			startval = 0.1
+			islooped = True
+		}
+	}
+	endwidth
+	{
+		linearcomponent
+		{
+			min = 0.01
+			max = 0.1
+			originalspeed = 1
+			startval = 0.1
+			islooped = True
+		}
+	}
+	Bcontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+	}
+	Ccontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 0
+				originalspeed = 0
+				startval = 0
+				islooped = False
+			}
+		}
+	}
+}

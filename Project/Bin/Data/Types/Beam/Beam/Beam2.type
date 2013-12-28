@@ -1,0 +1,128 @@
+type Beam2
+{
+	class = Beam
+	duration = 0.05
+	numrepeat = 1
+	updatetime = 0.05
+	mainpointobjtype = Beam2
+	jointobjectprobability = 0.8
+	numberofpoints = 20
+	length = 2
+	raycast = True
+	noisealongcurve = 0.1 0.1 0.1
+	usefastbeam = True
+	disablemipmapfiltering = True
+	materialName = Lightning
+	middlecolorvalue = 1 1 1 0
+	fadeoutstart = 0.9
+	allowEditorCreate = True
+	startwidth
+	{
+		linearcomponent
+		{
+			min = 0.1
+			max = 0.1
+			originalspeed = 1
+			startval = 0.1
+			islooped = True
+		}
+	}
+	endwidth
+	{
+		linearcomponent
+		{
+			min = 0.05
+			max = 0.05
+			originalspeed = 0.1
+			startval = 0.05
+			islooped = True
+		}
+	}
+	Bcontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 1
+				originalspeed = 0.5
+				startval = 0
+				islooped = True
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 1
+				originalspeed = 0.5
+				startval = 0
+				islooped = True
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0.5
+				max = 1
+				originalspeed = 0.5
+				startval = 0.5
+				islooped = True
+			}
+		}
+	}
+	Ccontrolpoint
+	{
+		r
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 1
+				originalspeed = 0.5
+				startval = 0
+				islooped = True
+			}
+		}
+		teta
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 1
+				originalspeed = 0.5
+				startval = 0
+				islooped = True
+			}
+		}
+		z
+		{
+			linearcomponent
+			{
+				min = 0
+				max = 1
+				originalspeed = 0.5
+				startval = 0
+				islooped = True
+			}
+		}
+	}
+	attachedObjects
+	{
+		mapObject
+		{
+			type = HelperPoint
+			alias = CControlPoint
+			position = 0.4778061 -0.785207 0.7226048
+		}
+		mapObject
+		{
+			type = HelperPoint
+			alias = BControlPoint
+			position = 0 0 0.01791467
+		}
+	}
+}
